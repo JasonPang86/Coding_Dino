@@ -14,6 +14,8 @@ HOW TO RUN:
   - CD into the correct folder and make sure your assets are working properly
   - Once there, navigate to the menu.py file and compile it and run!
   - You now can choose between 4 Different Languages to practice and help Mort free himself from the other Dinosaurs!
+  - Once in game, move around with WASD and interact with Maurice using Spacebar.
+  - When in a fight with a bigger dinosaur, you have to guess 2 correct in order to beat him! Guess using your number keys!
  
  Created by:
  Muhammad Shah
