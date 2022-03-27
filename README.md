@@ -23,6 +23,9 @@ HOW TO RUN:
  Alex Zhao
  Jason Pang
 
+Technologies:
+- Python, Pygame
+
 SPECIAL THANKS TO:
 https://arks.itch.io/dino-characters - For providing free 2D assets for our Dinosaur Characters
 https://edermunizz.itch.io/free-pixel-art-forest - For Providing an Amazing 2D background!
