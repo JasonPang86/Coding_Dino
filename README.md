@@ -20,3 +20,20 @@ HOW TO RUN:
  Karim Mansour
  Alex Zhao
  Jason Pang
+
+SPECIAL THANKS TO:
+https://arks.itch.io/dino-characters - For providing free 2D assets for our Dinosaur Characters
+https://edermunizz.itch.io/free-pixel-art-forest - For Providing an Amazing 2D background!
+
+Acknowledgements and Resources Used:
+https://www.youtube.com/watch?v=SgQhwtIoQ7o
+https://www.youtube.com/watch?v=8ppKSy8aUZc
+https://www.askpython.com/python-modules/pygame-looping-background
+https://edermunizz.itch.io/free-pixel-art-forest
+https://www.youtube.com/watch?v=QU1pPzEGrqw&t=4419s
+https://arks.itch.io/dino-characters
+https://youtu.be/jO6qQDNa2UY
+https://youtu.be/AX8YU2hLBUg?t=569
+https://www.youtube.com/watch?v=8ppKSy8aUZc
+https://helianthus-games.itch.io/pixel-art-planets
+https://arks.itch.io/dino-characters
