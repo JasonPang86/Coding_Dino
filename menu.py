@@ -9,7 +9,7 @@ pygame.init()
 
 
 #FPS LIMITER
-mainClock = pygame.time.Clock();
+mainClock = pygame.time.Clock()
 
 #Font
 font = pygame.font.SysFont(None, 20)
@@ -33,9 +33,9 @@ titleimg = pygame.image.load('Assets\Title.png').convert_alpha()
 def draw_title():
     screen.blit(titleimg, (0,-50))
     
-playimg = pygame.image.load('Assets\PythonSign.png').convert_alpha();
-playimg2 = pygame.image.load('Assets\JavaSign.png').convert_alpha();
-playimg3 = pygame.image.load('Assets\CCPP.png').convert_alpha();
+playimg = pygame.image.load('Assets\PythonSign.png').convert_alpha()
+playimg2 = pygame.image.load('Assets\JavaSign.png').convert_alpha()
+playimg3 = pygame.image.load('Assets\CCPP.png').convert_alpha()
 
 
 # making the button class

@@ -61,6 +61,14 @@ class Dino(pygame.sprite.Sprite):
             temp_list.append(frame) 
         self.animation_list.append(temp_list)  
 
+        temp_list = []
+        for i in range (14, 17):
+            sprite_sheet_image = pygame.image.load(source).convert_alpha()  #load the png
+            sprite_sheet = loadSpriteSheet.SpriteSheet(sprite_sheet_image)  #send the png to loadSpriteSheet
+            frame = sprite_sheet.get_image(i, 24, 24, scale, black)    #return frame
+            temp_list.append(frame) 
+        self.animation_list.append(temp_list)
+
         self.frame = self.animation_list[self.action][self.frame_index]
         self.rect = self.frame.get_rect()   #created a rectangle that we can move around 
         self.rect.center = (x, y)   #rectangle starting position
@@ -181,16 +189,23 @@ def gamePlayJava():
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_SPACE:
                         speak()
+                        moving_right = 0
             if pygame.sprite.collide_rect(player, Berry):
                 while yFought:
                     fightJava("Yellow")
+                    Berry.update_action(2)
+                    moving_right = 0
                     yFought = 0
             if pygame.sprite.collide_rect(player, Gary):
                 while bFought:
                     fightJava("Blue")
+                    moving_right = 0
+                    Gary.update_action(2)
                     bFought = 0
             if pygame.sprite.collide_rect(player, KingJulian):
                 while gFought:
                     fightJava("Green")
+                    KingJulian.update_action(2)
+                    moving_right = 0
                     gFought = 0
         pygame.display.update()

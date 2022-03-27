@@ -67,8 +67,8 @@ storage = [ ["In the python langauge what is the correct print statment?","Optio
 
 def fight(id):
     run = True
-    enemyHealth = 2;
-    playerHealth = 100;
+    enemyHealth = 2
+    playerHealth = 100
     i = randint(1,5)
     while (enemyHealth != 0):
 
@@ -86,7 +86,7 @@ def fight(id):
         addText(storage[i][2],70,415)
         addText(storage[i][3],70,435)
         addText(storage[i][4],70,455)
-        answer = storage[i][5];
+        answer = storage[i][5]
 
 
         player.update_animation()
@@ -109,28 +109,28 @@ def fight(id):
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_1:
                     if answer == "1":
-                        enemyHealth -= 1;
+                        enemyHealth -= 1
                         i = randint(0,len(storage)-1)
                     else:
-                        playerHealth -= 1;
+                        playerHealth -= 1
                 if event.key == pygame.K_2:
                     if answer == "2":
-                        enemyHealth -= 1;
+                        enemyHealth -= 1
                         i = randint(0,len(storage)-1)
                     else:
-                        playerHealth -= 1 ;
+                        playerHealth -= 1 
                 if event.key == pygame.K_3:
                     if answer == "3":
-                        enemyHealth -= 1;
+                        enemyHealth -= 1
                         i = randint(0,len(storage)-1)
                     else:
-                        playerHealth -= 1;
+                        playerHealth -= 1
                 if event.key == pygame.K_4:
                     if answer == "4":
-                        enemyHealth -= 1;
+                        enemyHealth -= 1
                         i = randint(0,len(storage)-1)
                     else:
-                        playerHealth -= 1;
+                        playerHealth -= 1
 
         pygame.display.update()
 
